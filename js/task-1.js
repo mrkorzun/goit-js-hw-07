@@ -1,4 +1,5 @@
 // Завдання 1
+
 // HTML містить список категорій ul#categories.
 // <ul id="categories">
 //   <li class="item">

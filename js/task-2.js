@@ -1,5 +1,11 @@
 // Завдання 2
 
+// Напиши скрипт для створення галереї зображень на основі масиву даних.
+// HTML містить список ul.gallery.
+
+// <ul class="gallery"></ul>
+
+// Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
@@ -26,13 +32,6 @@ const images = [
     alt: "Lighthouse Coast Sea",
   },
 ];
-
-// Напиши скрипт для створення галереї зображень на основі масиву даних.
-// HTML містить список ul.gallery.
-
-// <ul class="gallery"></ul>
-
-// Використовуй масив об'єктів images для створення елементів <img>, вкладених в <li>.
 
 // Ти можеш створити й додати HTML-елементи,
 // використовуючи document.createElement() і elem.append() або шаблонні рядки і elem.insertAdjacentHTML().
