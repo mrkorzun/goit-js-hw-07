@@ -1,12 +1,5 @@
 // Завдання 5
 
-// Для генерування випадкового кольору використовуй функцію getRandomHexColor().
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}
-
 // Напиши скрипт,
 // який змінює колір фону елемента <body> через інлайн-стиль
 // по кліку на button.change-color і задає це значення кольору
@@ -20,3 +13,22 @@ function getRandomHexColor() {
 // Зверни увагу, що функція getRandomHexColor() повертає колір у hex-форматі,
 // в той час, як колір фону на <body> буде у форматі rgb.
 // Це нормально й не потребує якихось правок.
+
+// Для генерування випадкового кольору використовуй функцію getRandomHexColor().
+
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
+}
+
+const refs = {
+  colorBtn: document.querySelector(".change-color"),
+  span: document.querySelector(".color"),
+};
+
+refs.colorBtn.addEventListener("click", () => {
+  const color = getRandomHexColor();
+  document.body.style.backgroundColor = color;
+  refs.span.textContent = color;
+});

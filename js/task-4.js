@@ -30,20 +30,21 @@
 const refs = {
   loginForm: document.querySelector(".login-form"),
 };
-console.dir(refs.loginForm);
+// console.dir(refs.loginForm);
 
 const onLoginFormSubmit = (event) => {
   event.preventDefault();
   const formData = {
     email: refs.loginForm.elements.email.value.trim(),
-    pwd: refs.loginForm.elements.password.value.trim(),
+    password: refs.loginForm.elements.password.value.trim(),
   };
-  console.log(formData);
-  const formDataValues = Object.value(formData);
-  if (formDataValues.includes(" ")) {
+  const formDataValues = Object.values(formData);
+  if (formDataValues.includes("")) {
     alert("All form fields must be filled in");
     return;
   }
+  //   console.log(formData);
+  refs.loginForm.reset();
 };
-refs.loginForm.reset();
+
 refs.loginForm.addEventListener("submit", onLoginFormSubmit);
