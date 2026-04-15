@@ -20,7 +20,7 @@ const refs = {
 refs.input.addEventListener("input", onInputText);
 
 function onInputText(event) {
-  const value = event.currentTarget.value.trim();
+  const value = event.target.value.trim();
   if (value === "") {
     refs.span.textContent = "Anonymous";
   } else {
