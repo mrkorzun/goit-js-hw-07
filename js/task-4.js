@@ -43,7 +43,7 @@ const onLoginFormSubmit = (event) => {
     alert("All form fields must be filled in");
     return;
   }
-  //   console.log(formData);
+  console.log(formData);
   refs.loginForm.reset();
 };
 
