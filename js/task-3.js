@@ -10,3 +10,20 @@
 
 // <input type="text" id="name-input" placeholder="Please enter your name" />
 // <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
+
+const refs = {
+  input: document.querySelector("#name-input"),
+  span: document.querySelector("#name-output"),
+};
+// console.log(refs);
+
+refs.input.addEventListener("input", onInputText);
+
+function onInputText(event) {
+  const value = event.currentTarget.value.trim();
+  if (value === "") {
+    refs.span.textContent = "Anonymous";
+  } else {
+    refs.span.textContent = value;
+  }
+}
