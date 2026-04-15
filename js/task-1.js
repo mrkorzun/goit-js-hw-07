@@ -37,3 +37,15 @@
 // Для кожного елемента li.item у списку ul#categories
 // знайде й виведе в консоль текст заголовка елемента (тегу <h2>)
 // і кількість елементів у категорії (усіх <li>, вкладених у нього).
+
+const refs = {
+  items: document.querySelectorAll(".item"),
+};
+// console.log(refs.items.length);
+
+refs.items.forEach((item) => {
+  const catH2 = item.querySelector("h2").textContent;
+  const liItems = item.querySelectorAll("li").length;
+
+  console.log(`${catH2}: ${liItems}`);
+});
