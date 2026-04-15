@@ -26,3 +26,24 @@
 // Для доступу до елементів форми використовуй властивість elements.
 // При сабміті форми виведи об'єкт із введеними даними в консоль
 // і очисти значення полів форми методом reset.
+
+const refs = {
+  loginForm: document.querySelector(".login-form"),
+};
+console.dir(refs.loginForm);
+
+const onLoginFormSubmit = (event) => {
+  event.preventDefault();
+  const formData = {
+    email: refs.loginForm.elements.email.value.trim(),
+    pwd: refs.loginForm.elements.password.value.trim(),
+  };
+  console.log(formData);
+  const formDataValues = Object.value(formData);
+  if (formDataValues.includes(" ")) {
+    alert("All form fields must be filled in");
+    return;
+  }
+};
+refs.loginForm.reset();
+refs.loginForm.addEventListener("submit", onLoginFormSubmit);
