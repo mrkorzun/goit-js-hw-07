@@ -38,3 +38,21 @@ const images = [
 
 // Усі елементи галереї повинні додаватися в DOM за одну операцію додавання.
 // Додай мінімальне оформлення галереї флексбоксами через CSS класи.
+
+const refs = {
+  gallery: document.querySelector(".gallery"),
+};
+
+const createGallery = ({ url, alt }) => {
+  return `
+  <li class="gallery-item">
+    <img class="gallery-img" src="${url}" alt="${alt}" width="360">
+  </li>`;
+};
+
+console.log(createGallery);
+
+const galleryTemplate = images.map(createGallery).join("");
+// console.log(galleryTemplate);
+
+refs.gallery.insertAdjacentHTML("beforeend", galleryTemplate);

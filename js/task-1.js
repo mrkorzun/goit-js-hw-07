@@ -44,8 +44,8 @@ const refs = {
 // console.log(refs.items.length);
 
 refs.items.forEach((item) => {
-  const catH2 = item.querySelector("h2").textContent;
-  const liItems = item.querySelectorAll("li").length;
+  const nameH = item.querySelector("h2").textContent;
+  const countLi = item.querySelectorAll("li").length;
 
-  console.log(`${catH2}: ${liItems}`);
+  console.log(`${nameH}: ${countLi}`);
 });
