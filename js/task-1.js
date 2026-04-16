@@ -41,11 +41,12 @@
 const refs = {
   items: document.querySelectorAll(".item"),
 };
-// console.log(refs.items.length);
+console.log(`Number of categories: ${refs.items.length}`);
 
 refs.items.forEach((item) => {
   const nameH = item.querySelector("h2").textContent;
   const countLi = item.querySelectorAll("li").length;
 
-  console.log(`${nameH}: ${countLi}`);
+  console.log(`Category: ${nameH}`);
+  console.log(`Elements: ${countLi}`);
 });
