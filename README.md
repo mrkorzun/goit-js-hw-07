@@ -5,7 +5,7 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black)
 
-Домашнє завдання №7 курсу **JavaScript** від **GoIT**. Закріплення знань про об'єктну модель документа (DOM), маніпуляції з елементами, обробку подій та роботу з елементами форм.
+Домашнє завдання №7 курсу **JavaScript** від **GoIT**. <br> Закріплення знань про об'єктну модель документа (DOM), маніпуляції з елементами, обробку подій та роботу з елементами форм.
 
 ---
 
@@ -240,7 +240,9 @@ cd goit-js-hw-07
 
 ### Прев'ю реалізації
 
-![Preview](./preview.png)
+<p align="center">
+  <img src="./preview.png" alt="Preview" width="900">
+</p>
 
 ---
 
