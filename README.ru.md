@@ -10,7 +10,7 @@
 
 > Практическая демонстрация базовых front-end навыков: **обход DOM, динамический рендеринг, интерфейс на основе событий, работа с формами и валидация** — реализовано полностью на чистом JavaScript.
 
-🔗 **Живая демо-версия:** [mrkorzun.github.io/goit-js-hw-07](https://mrkorzun.github.io/goit-js-hw-07/)
+🔗 **Живая демо-версия:** [mrkorzun.github.io/js-dom-events-playground/](https://mrkorzun.github.io/js-dom-events-playground/)
 
 ![Preview](./preview.png)
 
@@ -135,8 +135,8 @@ function getRandomHexColor() {
 Никакого build-пайплайна, менеджера пакетов или зависимостей — просто открой.
 
 ```bash
-git clone https://github.com/mrkorzun/goit-js-hw-07.git
-cd goit-js-hw-07
+git clone https://github.com/mrkorzun/js-dom-events-playground.git
+cd js-dom-events-playground
 # Открой index.html напрямую или подними любой статический сервер:
 npx serve .
 ```
@@ -148,7 +148,7 @@ npx serve .
 ## 📁 Структура проекта
 
 ```
-goit-js-hw-07/
+js-dom-events-playground/
 ├── css/                    # Стили по заданиям
 ├── js/                     # Скрипты по заданиям
 ├── 01-categories.html      # Мини-приложение 1

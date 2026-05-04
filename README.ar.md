@@ -12,7 +12,7 @@
 
 > عرض عملي لمهارات الواجهة الأمامية الأساسية: **التنقل في DOM، العرض الديناميكي، الواجهات المعتمدة على الأحداث، التعامل مع النماذج والتحقق من صحتها** — مبني بالكامل بـ JavaScript نقي بدون أي أُطر عمل.
 
-🔗 **العرض المباشر:** [mrkorzun.github.io/goit-js-hw-07](https://mrkorzun.github.io/goit-js-hw-07/)
+🔗 **العرض المباشر:** [mrkorzun.github.io/js-dom-events-playground](https://mrkorzun.github.io/js-dom-events-playground/)
 
 ![Preview](./preview.png)
 
@@ -137,8 +137,8 @@ function getRandomHexColor() {
 لا توجد عملية بناء، ولا مدير حزم، ولا اعتماديات — فقط افتحه.
 
 ```bash
-git clone https://github.com/mrkorzun/goit-js-hw-07.git
-cd goit-js-hw-07
+git clone https://github.com/mrkorzun/js-dom-events-playground.git
+cd js-dom-events-playground
 # افتح index.html مباشرةً، أو استخدم أي خادم ثابت:
 npx serve .
 ```
@@ -150,7 +150,7 @@ npx serve .
 ## 📁 بنية المشروع
 
 ```
-goit-js-hw-07/
+js-dom-events-playground/
 ├── css/                    # أنماط لكل مهمة
 ├── js/                     # سكربتات لكل مهمة
 ├── 01-categories.html      # التطبيق المصغّر 1

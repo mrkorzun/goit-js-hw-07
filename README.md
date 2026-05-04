@@ -10,7 +10,7 @@
 
 > A practical demonstration of core front-end skills: **DOM traversal, dynamic rendering, event-driven UI, form handling, and validation** — built entirely with vanilla JavaScript.
 
-🔗 **Live demo:** [mrkorzun.github.io/goit-js-hw-07](https://mrkorzun.github.io/goit-js-hw-07/)
+🔗 **Live demo:** [mrkorzun.github.io/js-dom-events-playground/](https://mrkorzun.github.io/js-dom-events-playground/)
 
 ![Preview](./preview.png)
 
@@ -135,8 +135,8 @@ function getRandomHexColor() {
 No build pipeline, no package manager, no dependencies — just open it.
 
 ```bash
-git clone https://github.com/mrkorzun/goit-js-hw-07.git
-cd goit-js-hw-07
+git clone https://github.com/mrkorzun/js-dom-events-playground.git
+cd js-dom-events-playground
 # Open index.html directly, or use any static server:
 npx serve .
 ```
@@ -148,7 +148,7 @@ For an auto-reloading dev experience, the **Live Server** extension for VS Code 
 ## 📁 Project Structure
 
 ```
-goit-js-hw-07/
+js-dom-events-playground/
 ├── css/                    # Per-task styles
 ├── js/                     # Per-task scripts
 ├── 01-categories.html      # Mini-app 1
@@ -171,7 +171,7 @@ goit-js-hw-07/
 **Romario Korzun** — Front-End Developer
 
 - GitHub: [@mrkorzun](https://github.com/mrkorzun)
-- Live portfolio: [mrkorzun.github.io](https://mrkorzun.github.io)
+- Live portfolio: [mrkorzun.github.io](https://mrkorzun.github.io/js-dom-events-playground/)
 
 ---
 

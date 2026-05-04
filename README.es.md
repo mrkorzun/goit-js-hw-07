@@ -10,7 +10,7 @@
 
 > Una demostración práctica de las habilidades fundamentales de front-end: **recorrido del DOM, renderizado dinámico, interfaces basadas en eventos, manejo de formularios y validación** — construido íntegramente en JavaScript puro.
 
-🔗 **Demo en vivo:** [mrkorzun.github.io/goit-js-hw-07](https://mrkorzun.github.io/goit-js-hw-07/)
+🔗 **Demo en vivo:** [mrkorzun.github.io/js-dom-events-playground](https://mrkorzun.github.io/js-dom-events-playground/)
 
 ![Preview](./preview.png)
 
@@ -135,8 +135,8 @@ function getRandomHexColor() {
 Sin pipeline de build, sin gestor de paquetes, sin dependencias — solo ábrelo.
 
 ```bash
-git clone https://github.com/mrkorzun/goit-js-hw-07.git
-cd goit-js-hw-07
+git clone https://github.com/mrkorzun/js-dom-events-playground.git
+cd js-dom-events-playground
 # Abre index.html directamente o usa cualquier servidor estático:
 npx serve .
 ```
@@ -148,7 +148,7 @@ Para una experiencia con auto-recarga, se recomienda la extensión **Live Server
 ## 📁 Estructura del proyecto
 
 ```
-goit-js-hw-07/
+js-dom-events-playground/
 ├── css/                    # Estilos por tarea
 ├── js/                     # Scripts por tarea
 ├── 01-categories.html      # Mini-aplicación 1
